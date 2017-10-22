@@ -14,7 +14,7 @@ public class ProjectTest {
 
     @Before
     public void setUp() {
-        simpleProject = new Project(new String[]{"A", "B", "C"});
+        simpleProject = new Project(new String[][]{{"A", "B"}, {"B", "C"}});
     }
 
     @Test
