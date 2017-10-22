@@ -24,7 +24,7 @@ public class ProjectTest {
 
     @Test
     public void isWellSorted_withEmptyTasksAndQueue_returnsTrue() {
-        Project emptyProject = new Project(new String[][]{{}});
+        Project emptyProject = new Project(new String[][]{});
         assertTrue(emptyProject.isWellSorted(new String[]{}));
     }
 
