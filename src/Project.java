@@ -1,12 +1,13 @@
 
-public class Project {
+public class Project implements ProjectInterface {
 	public static String[][] s;
 	
 	public Project(String[][] strings)
 	{
 		s = strings;
 	}
-	public static boolean isWellSorted(String[] strings){
+	
+	public boolean isWellSorted(String[] strings){
 		boolean isSorted = false;
 		for(int i=0; i<strings.length-1; i++ )
 		{
