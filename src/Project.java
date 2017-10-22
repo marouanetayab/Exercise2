@@ -1,6 +1,6 @@
 
 public class Project implements ProjectInterface {
-	public static String[][] s;
+	public String[][] s;
 	
 	public Project(String[][] strings)
 	{
