@@ -57,8 +57,6 @@ public class ProjectTest {
         assertTrue(complexProject.isWellSorted(new String[]{"A", "E"}));
         assertTrue(complexProject.isWellSorted(new String[]{"B", "C"}));
         assertTrue(complexProject.isWellSorted(new String[]{"B", "F"}));
-        assertTrue(complexProject.isWellSorted(new String[]{"A", "B"}));
-        assertTrue(complexProject.isWellSorted(new String[]{"A", "B", "C"}));
         assertTrue(complexProject.isWellSorted(new String[]{"A", "C", "D"}));
         assertTrue(complexProject.isWellSorted(new String[]{"A", "C", "E"}));
         assertTrue(complexProject.isWellSorted(new String[]{"A", "C", "F"}));
